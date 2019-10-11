@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS For Header */
+
+#header {
+    background: linear-gradient(to right bottom, rgba(6, 27, 59, 0.767), #1c063591);
+    background-size: cover;
+}
+
+#header .logo {
+    /* font-size: 30px; */
+    height: 70px;
+    margin-left: 30px;
+}
+
+#header .nav {
+    display: block;
+    background-color: blueviolet;
+    padding: 20px 10px;
+}
+
+#header .nav .logoBox {
+    display: inline;
+}
+
+#header .nav .links {
+    float: right;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#header .nav .link {
+    background-color: rgba(125, 60, 185, 0.856);
+    padding: 13px;
+}
+
+#header .nav .link:hover {
+    cursor: pointer;
+    background-color: rgba(164, 88, 235, 0.685);
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+#header .subHeader {
+    padding: 30px;
+}
+
+#header .subHeader .header-title {
+    text-align: center;
+    color: aliceblue;
+}
+
+
+/* Main body styles */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-column-gap: 10px; */
+    background-color: white;
+}
+
+main .section1 {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 20px;
+}
+
+main .section2 {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 20px;
+}
+
+main .section-header-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* main .formSection {
+    background-color: white;
+    padding: 20px;
+} */
+
+
+/* FOOTER CSS */
+
+#footer {
+    background-color: rgba(20, 2, 37, 0.897);
+    padding: 40px;
+    text-align: center;
+}
+
+#footer .copyright {
+    color: white;
+    text-align: center;
+}
