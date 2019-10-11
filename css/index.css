@@ -25,6 +25,7 @@ body {
     display: block;
     background-color: blueviolet;
     padding: 20px 10px;
+    height: 114px;
 }
 
 #header .nav .logoBox {
